@@ -2,7 +2,7 @@
       <div class="container d-flex  flex-md-row justify-content-evenly">
         <a class="py-2 ml-mr-2" href="../index.php">Главная</a>
         <a class="py-2 ml-mr-2" href="../Otvz.php">Отзывы</a>
-        <a class="py-2 ml-mr-2" href="../MyOtzv.php">Мои отзывы</a>
+        
 
           <?php
           //<label style="cursor:pointer;">###
@@ -15,6 +15,7 @@
         <a class="py-2 ml-mr-2" href="User_Page/signin.php"  style="color: yellow;">Войти
 
       <?php else : ?>
+              <a class="py-2 ml-mr-2" href="../MyOtzv.php">Мои отзывы</a>
 
             <a class="py-2 ml-mr-2" href="User_Page/signin.php">пользователь: <?php print_r($_COOKIE['user'])?></a>
             <a class="btn btn-outline-primary" href="check/exit.php">Exit</a>
