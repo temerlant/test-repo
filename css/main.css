@@ -1,0 +1,27 @@
+
+nav
+{
+  background: dimgray;
+  position: fixed;
+}
+a
+{
+  color: #999;
+  text-decoration: none;
+transition: ease-in-out color .15s;
+}
+a:hover
+{
+color: white;
+
+}
+label:hover
+{
+  color: yellow;
+  transition: ease-in-out color .15s;
+}
+a:active
+{
+  color: yellow;
+  transition: ease-in-out color .15s;
+}
